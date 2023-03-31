@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "currency-api"
+version = "0.1.0"
+description = ""
+authors = ["Shush1k <Shush1k.b@gmail.com>"]
+readme = "README.md"
+packages = [{include = "currency_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "4.1"
+djangorestframework = "^3.14.0"
+flake8 = "^6.0.0"
+python-dotenv = "^1.0.0"
+django-filter = "^23.1"
+django-debug-toolbar = "^3.8.1"
+djangorestframework-yaml = "^2.0.0"
+pre-commit = "^3.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
