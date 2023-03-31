@@ -29,7 +29,10 @@ In this project, I used `poetry` for the first time instead of the standard `pip
 
 Pre-commit
 -----------
-
+- `poetry add pre-commit` - to install pre-commit
+- `pre-commit install` - to install the git hook scripts
+- `pre-commit run` - runs the pre-commit
+- `pre-commut autoupdate` - update hooks to the latest version
 
 Django Rest Framework
 ----------------------
